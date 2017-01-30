@@ -1,16 +1,16 @@
-site_name: MkDocs test
+site_name: MkDocs play
 
 theme: 'material'
 
 pages:
     - Home: index.md
-    - lorum001.md
-        - lorum002.md
-        - lorum003.md
-            - lorum004.md
-            - lorum005.md
-                - lorum006.md
-                - lorum007.md
-            - lorum008.md
-                - lorum009.md
-    - lorum010.md
+    - Lorum 1: lorum001.md
+        - Lorum 2: lorum002.md
+        - Lorum 3: lorum003.md
+            - Lorum 4: lorum004.md
+            - Lorum 5: lorum005.md
+                - Lorum 6: lorum006.md
+                - Lorum 7: lorum007.md
+            - Lorum 8: lorum008.md
+                - Lorum 9: lorum009.md
+    - Lorum 10: lorum010.md
