@@ -1,55 +1,16 @@
 site_name: MkDocs test
-edit_uri: edit/master/docs/
-site_description: Playing with MkDocs
-site_author: PMH
-copyright: Copyright &copy; PMH, 2017
-# remote_branch: gh-pages
-# remote_name: origin
 
 theme: 'material'
 
-extra:
-    version: 1.0
-    palette:
-      primary: 'indigo'
-      accent: 'indigo'
-    font:
-      text: 'Roboto'
-      code: 'Roboto Mono'
-    social:                 # see: http://fontawesome.io/icons/
-      - type: 'slack'
-        link: 'http://slack.com'
-      - type: 'stack-overflow'
-        link: 'http://stack-overflow.com'
-      - type: 'youtube'
-        link: 'http://youtube.com'
-      - type: 'telegram'
-        link: 'http://telegram.com'
-      - type: 'whatsapp'
-        link: 'http://whatsapp.com'
-      - type: 'comment-o'
-        link: 'http://comment.com'
-      - type: 'facebook'
-        link: 'http://facebook.com'
-      - type: 'github'
-        link: 'https://github.com'
-      - type: 'twitter'
-        link: 'https://twitter.com'
-      - type: 'linkedin'
-        link: 'https://linkedin.com'
-    
-
-# Preview controls
-
-dev-addr: 127.0.0.1:8000
-
-markdown_extensions:
-    - smarty
-    - abbr
-    - def_list
-#    - toc:
-#        separator: "_"
-    - sane_lists
-
 pages:
     - Home: index.md
+    - lorum001.md
+        - lorum002.md
+        - lorum003.md
+            - lorum004.md
+            - lorum005.md
+                - lorum006.md
+                - lorum007.md
+            - lorum008.md
+                - lorum009.md
+    - lorum010.md
