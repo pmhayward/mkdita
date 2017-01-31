@@ -5,8 +5,15 @@ theme: 'material'
 pages:
     - Home: index.md
     - Lorum 1: lorum001.md
-    - Lorum 2: lorum002.md
-    - Lorum 3: lorum003.md
+        - Lorum 2: lorum002.md
+        - Lorum 3: lorum003.md
+    - Lorum 4: lorum004.md
+        - Lorum 5: lorum005.md
+        - Lorum 6: lorum006.md
+            - Lorum 7: lorum007.md
+            - Lorum 8: lorum008.md
+                - Lorum 9: lorum009.md
+    - Lorum 10: lorum010.md
 
 markdown_extensions:
     - def_list
