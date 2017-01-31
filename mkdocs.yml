@@ -1,6 +1,52 @@
 site_name: MkDocs play
 
+site_name: MkDocs test
+edit_uri: edit/master/docs/
+site_description: A trial site for MkDocs
+site_author: Me
+copyright: Copyright &copy; Me, 2017
+remote_branch: gh-pages
+remote_name: origin
+
 theme: 'material'
+
+markdown_extensions:
+    - smarty
+    - abbr
+    - def_list
+    - toc:
+        separator: "_"
+    - sane_lists
+
+extra:
+    version: 1.0
+    palette:
+      primary: 'indigo'
+      accent: 'indigo'
+    font:
+      text: 'Segoe Print'   # 'Kristen ITC' 'Roboto'
+      code: 'Consolas'      # 'Roboto Mono'
+    social:                 # see: http://fontawesome.io/icons/
+      - type: 'slack'
+        link: 'http://slack.com'
+      - type: 'stack-overflow'
+        link: 'http://stack-overflow.com'
+      - type: 'youtube'
+        link: 'http://youtube.com'
+      - type: 'telegram'
+        link: 'http://telegram.com'
+      - type: 'whatsapp'
+        link: 'http://whatsapp.com'
+      - type: 'comment-o'
+        link: 'http://comment.com'
+      - type: 'facebook'
+        link: 'http://facebook.com'
+      - type: 'github'
+        link: 'https://github.com'
+      - type: 'twitter'
+        link: 'https://twitter.com'
+      - type: 'linkedin'
+        link: 'https://linkedin.com'
 
 pages:
     - Home: index.md
@@ -19,5 +65,3 @@ pages:
                 - Lorum 9: lorum009.md
     - Lorum 10: lorum010.md
 
-markdown_extensions:
-    - def_list
