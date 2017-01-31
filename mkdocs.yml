@@ -4,3 +4,9 @@ theme: 'material'
 
 pages:
     - Home: index.md
+    - Lorum 1: lorum001.md
+    - Lorum 2: lorum002.md
+    - Lorum 3: lorum003.md
+
+markdown_extensions:
+    - def_list
