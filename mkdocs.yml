@@ -50,18 +50,18 @@ extra:
 
 pages:
     - Home: index.md
-    - Lorum 1: lorum001.md
-    - Lorum A:
-        - Lorum 2: lorum002.md
-        - Lorum 3: lorum003.md
-    - Lorum B:
-        - Lorum 4: lorum004.md
-        - Lorum 5: lorum005.md
-        - Lorum C:
-            - Lorum 6: lorum006.md
-            - Lorum 7: lorum007.md
-            - Lorum D:
-                - Lorum 8: lorum008.md
-                - Lorum 9: lorum009.md
-    - Lorum 10: lorum010.md
+    - Lorem 1: lorem001.md
+    - Lorem A:
+        - Lorem 2: lorem002.md
+        - Lorem 3: lorem003.md
+    - Lorem B:
+        - Lorem 4: lorem004.md
+        - Lorem 5: lorem005.md
+        - Lorem C:
+            - Lorem 6: lorem006.md
+            - Lorem 7: lorem007.md
+            - Lorem D:
+                - Lorem 8: lorem008.md
+                - Lorem 9: lorem009.md
+    - Lorem 10: lorem010.md
 
