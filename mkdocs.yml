@@ -26,6 +26,7 @@ extra:
     font:
       text: 'Segoe Print'   # 'Kristen ITC' 'Roboto'
       code: 'Consolas'      # 'Roboto Mono'
+    logo: 'cogs.png'        #'ivor24.png'   'logo.svg'
     social:                 # see: http://fontawesome.io/icons/
       - type: 'slack'
         link: 'http://slack.com'
@@ -64,7 +65,7 @@ pages:
                 - Lorem 8: lorem008.md
                 - Lorem 9: lorem009.md
     - Lorem 10: lorem010.md
-
+    - Lorem very long: lorem_verylong.md
     - Other stuff:
         - Pandoc transforms                                          : transforms.md
         - Test tags                                                  : test_tags_190.md
