@@ -65,3 +65,7 @@ pages:
                 - Lorem 9: lorem009.md
     - Lorem 10: lorem010.md
 
+    - Other stuff:
+        - Pandoc transforms                                          : transforms.md
+        - Test tags                                                  : test_tags_190.md
+        - MkDocs notes                                               : mkdocs_notes.md
