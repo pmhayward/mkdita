@@ -1,6 +1,9 @@
 site_name: MkDocs play
 
+site_url: https://pmhayward.github.io/mkd-test/
+repo_url: https://github.com/pmhayward/mkd-test/
 edit_uri: edit/master/docs/
+
 site_description: A trial site for MkDocs
 site_author: Me
 copyright: Copyright &copy; Me, 2017

@@ -77,8 +77,8 @@ Syntax of 'extra bits':
     - The titles of the DITA topics are used for the sections in the resulting Markdown topic. (See scenario 2 below.)
     - If you want to use a different title, include it in double quotation marks ("...") before the topic file name. (See scenario 3 below.)
     - The title (or replacement title) of the first (or only) topic is used as the title for the whole Markdown topic. 
-    - If you want a completely new title for the resulting Markdown topic *and* keep the title of the first source topic, include that title as the first item in the list, but do not add a source file name after it. (See scnario 4 below.)
-- If you enclose a listed file name in parentheses, the source from that file will be included exactly 'as-is' with no further parsing. This allows extra text to be included that is not part of the original DITA content. **Note:** if extra content is added as the first item, it's assumed that it will contain an appropriate title and correct levels of subheadings, unless the title is supplied in the YAML file as above. (See scnario 5 below.)
+    - If you want a completely new title for the resulting Markdown topic *and* keep the title of the first source topic, include that whole-topic title as the first item in the list, but do not add a source file name after it. (See scenario 4 below.)
+- If you enclose a listed file name in parentheses, the source from that file will be included exactly 'as-is' with no further parsing. This allows extra text to be included that is not part of the original DITA content. **Note:** if extra content is added as the first item, it's assumed that it will contain an appropriate title and correct levels of subheadings, unless the title is supplied in the YAML file as above. (See scenario 5 below.)
 
 ### Concatenation scenarios
 
