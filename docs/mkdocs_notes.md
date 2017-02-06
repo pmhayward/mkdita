@@ -139,6 +139,8 @@ This creates a new directory, named `site` that can be deployed to any server.
 
 ## Licences
 
-- Pandoc: Released under the GPL (GNU General Public License).  (IBM G2O = IUA)
-- MkDocs: Released under the BSD (Berkeley Software Distribution) licence.
-- sphinx_rtd_theme (read-the-docs) theme for MkDocs: Released under the the MIT (Massachusetts Institute of Technology) License.
+- **Pandoc**: Released under the GPL (GNU General Public License).  (IBM G2O = IUA)
+- **MkDocs**: Released under the BSD (Berkeley Software Distribution) licence.
+- **'sphinx_rtd_theme'** (read-the-docs) theme for MkDocs: Copyright &copy; 2013 Dave Snider, released under the the MIT (Massachusetts Institute of Technology) License.
+- **'material'** theme for MkDocs: Copyright &copy; 2016 Martin Donath, released under the the MIT License.
+
