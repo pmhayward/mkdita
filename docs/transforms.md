@@ -12,19 +12,21 @@ The following table shows result of transforming **DITA** to **XHTML** and then 
 
 **MD required** is best attempt at implementing required highlighting
 
+<!-- 
 #### CommonMark Markdown (CMD) differences
 
 - `#` and `##` used instead of `===` and `---` respectively.
 - `\<` and `\>` rather than `&gt;` and `&lt;`
 - All tagging is removed that it doesn't understand (i.e. [no tagging] instead of [html] in following list) except...
-- Tables are simply transfered as HTML.
+- Tables are simply transfered as HTML. 
+-->
 
 #### Table of DITA element transforms to Markdown
 
 | DITA element  | Transform to XHTML                                               | To G-F Markdown     | Highlighting required | MD required |
 |---------------|------------------------------------------------------------------|---------------------|---------------|---------------------| 
-| topic title   | `<h1 class="title topictitle1">                                ` | `===`               | H1            | #                   |
-| abstract      | `<div class="abstract">                                        ` | `---`               | H2            | ##                  |
+| topic title   | `<h1 class="title topictitle1">                                ` | `===` underline     | H1            | #                   |
+| abstract      | `<div class="abstract">                                        ` | `---` underline     | H2            | ##                  |
 | shortdesc     | `<span class="shortdesc">                                      ` | [html]              |               |                     |
 | apiname       | `<span class="keyword apiname">                                ` | [html]              | mono          | &grave;             |
 | bold          | `<strong class="ph b">                                         ` | `**`                | bold          | `**` or `__`        |
@@ -71,5 +73,5 @@ The following table shows result of transforming **DITA** to **XHTML** and then 
 | userinput     | `<kbd class="ph userinput">                                    ` | [html]              | mono          | &grave;             |
 | varname       | `<var class="keyword varname">                                 ` | [html]              | bold          | `**` or `__`        |
 | wintitle      | `<span class="keyword wintitle">                               ` | [html]              | -             |                     |
-| xref          | `<a class="xref" href="http://xyz" target="_blank" title="hover_text">link_text</a>` | [html] |        | ()[]                |
+| xref          | `<a class="xref" href="http://xyz" target="_blank" title="hover_text">link_text</a>` | [html] |        | (link_text)[http://xyz "hover_text"]                |
                                                                                                                                
